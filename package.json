@@ -8,17 +8,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.37",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@expo/metro-runtime": "~4.0.1",
+    "@expo/webpack-config": "^19.0.0",
+    "babel-preset-expo": "~9.2.0",
+    "expo": "~49.0.13",
+    "expo-status-bar": "~1.6.0",
     "mobx": "^6.13.6",
     "mobx-react": "9.2.0",
-    "@babel/plugin-proposal-decorators": "^7.14.5",
-    "babel-preset-expo": "~9.2.0",
-    "react-dom": "18.3.1",
-    "react-native-web": "~0.19.13",
-    "@expo/metro-runtime": "~4.0.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.5",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
