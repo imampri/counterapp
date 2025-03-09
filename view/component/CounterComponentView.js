@@ -36,34 +36,32 @@ const styles = StyleSheet.create({
         borderColor: '#ffffff',
         borderWidth: 2,
         borderRadius: 5,
-        backgroundColor: "#adb013"
+        backgroundColor: "#adb013",
     },
     text: {
         textAlign: 'center',
         padding: 20,
         fontSize: 40,
         fontWeight: "bold",
-        color: "#ffffff"
+        color: "#ffffff",
     },
     buttonContainer: {
         flexDirection: 'column',
-        rowGap: "10px",
         justifyContent: 'space-between',
         marginBottom: 50,
     },
     button: {
-        flex: 2,
+        marginBottom: 20,
         paddingHorizontal: 30,
         paddingVertical: 20,
         borderRadius: 10,
         borderColor: '#ffffff',
         borderWidth: 2,
-        shadowOffset: {
-            width: 4,
-            height: 4,
-        },
+        shadowColor: '#000',
+        shadowOffset: { width: 4, height: 4 },
         shadowOpacity: 0.4,
         shadowRadius: 4,
+        elevation: 5,
     },
     decreaseButton: {
         backgroundColor: '#eb8023',
@@ -85,6 +83,7 @@ const styles = StyleSheet.create({
     resetButton: {
         backgroundColor: '#f5426f',
         paddingHorizontal: 25,
+        paddingVertical: 20,
     },
     resetText: {
         fontSize: 40,
